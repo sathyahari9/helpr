@@ -1,0 +1,21 @@
+{
+    "name": "Helpr",
+    
+    "version": "1.0",
+    
+    "description": "This Chrome extension that detects the user's face and changes the web experience accordingly",
+    
+    "manifest_version": 2,
+    "incognito": "split",
+    
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    
+    "permissions": [
+       "activeTab"
+     ],
+  "icons": {
+      "128": "icon.png"
+      }
+  }
