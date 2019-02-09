@@ -1,0 +1,44 @@
+*{
+    transition: all ease .4s;
+}
+.main{
+    width: 400px;
+    height: 320px;
+    background: #fff;
+}
+.heading{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    width: 80%;
+    margin-top: 30px;
+}
+.logo{
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 50px;
+    margin-top: 35px;
+}
+.changeColor{
+    display: block;
+    position: relative;
+    height: 50px;
+    width: 250px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 50px;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #fff;
+    border: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.changeColor:hover{
+    opacity: .8;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
